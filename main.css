@@ -19,6 +19,11 @@ body{
   font-weight: 100;
 }
 
+#profile{
+  display: block;
+  margin: 0 auto;
+}
+
 .page-description{
   border: 1px solid black;
   text-align: center;
@@ -35,7 +40,11 @@ body{
   margin: 10px;
 }
 
-.gallery-item .thumbnail {
+.thumbnail {
+  width: auto;
+  height: auto;
+  max-width: 350px;
+  max-height: 350px;
 
 }
 
@@ -48,24 +57,26 @@ nav {
 nav li {
   margin: 0;
   padding: 0 10px;
-}
-
-nav ul {
   display: inline;
 }
 
-.contact-btn {
+nav ul {
 
 }
 
-.contact-btn a {
-  margin-right: 30px;
+#contact-btn {
+  float: right;
+
+}
+
+#contact-btn a {
+  margin-right: 300px;
   padding: 8px 18px;
   border: 1px solid #204156;
 
 }
 
-.contact-btn a:active {
+#contact-btn a:active {
   position: relative;
   bottom: 2px;
 }
